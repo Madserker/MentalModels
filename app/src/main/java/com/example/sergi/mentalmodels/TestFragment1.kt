@@ -4,10 +4,13 @@ import android.content.Context
 import android.net.Uri
 import android.os.Bundle
 import android.app.Fragment
+import android.content.Intent
 import android.text.Layout
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.fragment_test_fragment1.*
 
 class TestFragment1 (): Fragment() {
 
@@ -21,22 +24,39 @@ class TestFragment1 (): Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         if (MainActivity.testNumber==1){
-            this.view.setBackgroundResource(R.drawable.t1_s1)
-            state = "A"
-            //stateMachineTest1()
+            stateMachineTest1()
         }
 
     }
 
     fun stateMachineTest1(){
+        this.view.setBackgroundResource(R.drawable.t1_s1)
+        val stateMachine = StateMachineTest1()
 
-
-        while(state != "F1" || state != "F2" || state != "F3"){
-            if(state == "A"){
+        button1.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(v: View?) {
+                stateMachine.option1()
+                /*
+                * this.view.setBackgroundResource(stateMachine.image)
+                * textview.text = stateMachine.answer
+                * ...
+                * */
 
             }
+        })
 
-        }
+        button2.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(v: View?) {
+                stateMachine.option2()
+            }
+        })
+
+        button3.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(v: View?) {
+                stateMachine.option3()
+            }
+        })
+
 
 
 
