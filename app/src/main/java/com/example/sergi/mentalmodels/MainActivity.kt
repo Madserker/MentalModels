@@ -8,13 +8,16 @@ import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-
+    companion object {
+        var testNumber : Int = 0
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         btn_test1.setOnClickListener(object : View.OnClickListener {
             override fun onClick(v: View?) {
+                testNumber = 1
                 val intent = Intent(this@MainActivity.applicationContext, Test::class.java)
                 startActivity(intent)
 

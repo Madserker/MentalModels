@@ -9,7 +9,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-class TestFragment1 : Fragment() {
+class TestFragment1 (): Fragment() {
+
+    var state : String = "A"
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View {
         return inflater?.inflate(R.layout.fragment_test_fragment1, container, false)!!
@@ -17,7 +19,24 @@ class TestFragment1 : Fragment() {
 
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        this.view.setBackgroundResource(R.drawable.t1_s1)
+
+        if (MainActivity.testNumber==1){
+            this.view.setBackgroundResource(R.drawable.t1_s1)
+            state = "A"
+            //stateMachineTest1()
+        }
+
+    }
+
+    fun stateMachineTest1(){
+
+
+        while(state != "F1" || state != "F2" || state != "F3"){
+            if(state == "A"){
+
+            }
+
+        }
 
 
 
