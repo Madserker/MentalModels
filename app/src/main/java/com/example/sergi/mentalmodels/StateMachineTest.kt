@@ -4,7 +4,6 @@ interface StateMachineTest {
     var state : String
     var image : String
     var text : String
-    var question : String
     var answer1: String
     var answer2: String
     var answer3: String

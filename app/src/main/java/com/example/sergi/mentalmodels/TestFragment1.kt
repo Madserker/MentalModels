@@ -12,6 +12,8 @@ import android.view.ViewGroup
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_test_fragment1.*
 
+
+
 class TestFragment1 (): Fragment() {
 
     var stateMachine = StateMachineTest1()
@@ -32,33 +34,48 @@ class TestFragment1 (): Fragment() {
     }
 
     fun stateMachineTest(stateMachine : StateMachineTest){
-        this.view.setBackgroundResource(R.drawable.t1_s1)//change
+        //this.view.setBackgroundResource(R.drawable.test1_a_image)//change
+        var variableValue =  stateMachine.image
+        this.view.setBackgroundResource(resources.getIdentifier(variableValue, "drawable", activity.packageName))
         textView1.text = stateMachine.text
-        //..
+        answer1.text = stateMachine.answer1
+        answer2.text = stateMachine.answer2
+        answer3.text = stateMachine.answer3
 
 
         button1.setOnClickListener(object : View.OnClickListener {
             override fun onClick(v: View?) {
                 stateMachine.option1()
                 textView1.text = stateMachine.text
-                /*
-                * this.view.setBackgroundResource(stateMachine.image)
-                * textview.text = stateMachine.answer
-                * ...
-                * */
-
+                answer1.text = stateMachine.answer1
+                answer2.text = stateMachine.answer2
+                answer3.text = stateMachine.answer3
+                variableValue =  stateMachine.image
+                view.setBackgroundResource(resources.getIdentifier(variableValue, "drawable", activity.packageName))
             }
         })
 
         button2.setOnClickListener(object : View.OnClickListener {
             override fun onClick(v: View?) {
                 stateMachine.option2()
+                textView1.text = stateMachine.text
+                answer1.text = stateMachine.answer1
+                answer2.text = stateMachine.answer2
+                answer3.text = stateMachine.answer3
+                variableValue =  stateMachine.image
+                view.setBackgroundResource(resources.getIdentifier(variableValue, "drawable", activity.packageName))
             }
         })
 
         button3.setOnClickListener(object : View.OnClickListener {
             override fun onClick(v: View?) {
                 stateMachine.option3()
+                textView1.text = stateMachine.text
+                answer1.text = stateMachine.answer1
+                answer2.text = stateMachine.answer2
+                answer3.text = stateMachine.answer3
+                variableValue =  stateMachine.image
+                view.setBackgroundResource(resources.getIdentifier(variableValue, "drawable", activity.packageName))
             }
         })
 
