@@ -77,10 +77,11 @@
         android:id="@+id/answer2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
         android:text="TextView"
         android:textColor="@android:color/holo_red_light"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="473dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button2" />
 
     <TextView
         android:id="@+id/answer3"
