@@ -14,7 +14,8 @@ import kotlinx.android.synthetic.main.fragment_test_fragment1.*
 
 class TestFragment1 (): Fragment() {
 
-    var state : String = "A"
+    var stateMachine = StateMachineTest1()
+
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View {
         return inflater?.inflate(R.layout.fragment_test_fragment1, container, false)!!
@@ -24,18 +25,22 @@ class TestFragment1 (): Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         if (MainActivity.testNumber==1){
-            stateMachineTest1()
+            stateMachine = StateMachineTest1()
         }
+        stateMachineTest(stateMachine)
 
     }
 
-    fun stateMachineTest1(){
-        this.view.setBackgroundResource(R.drawable.t1_s1)
-        val stateMachine = StateMachineTest1()
+    fun stateMachineTest(stateMachine : StateMachineTest){
+        this.view.setBackgroundResource(R.drawable.t1_s1)//change
+        textView1.text = stateMachine.text
+        //..
+
 
         button1.setOnClickListener(object : View.OnClickListener {
             override fun onClick(v: View?) {
                 stateMachine.option1()
+                textView1.text = stateMachine.text
                 /*
                 * this.view.setBackgroundResource(stateMachine.image)
                 * textview.text = stateMachine.answer

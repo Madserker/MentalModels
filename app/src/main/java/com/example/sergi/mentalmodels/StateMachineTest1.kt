@@ -1,16 +1,19 @@
 package com.example.sergi.mentalmodels
 
-class StateMachineTest1(){
-    var state : String = "A"
-    var image : String = ""
-    var question : String = ""
-    var answer1: String = ""
-    var answer2: String = ""
-    var answer3: String = ""
+import android.provider.Settings.Global.getString
 
-    fun option1(){
+class StateMachineTest1() : StateMachineTest{
+    override var state : String = "A"
+    override var image : String = ""
+    override var text : String = Constants.test1_A_text
+    override var question : String = ""
+    override var answer1: String = ""
+    override var answer2: String = ""
+    override var answer3: String = ""
+
+    override fun option1(){
         if(state=="A"){
-            state = "A1"
+            state = "B"
             /*
             * image = ..
             * question = ..
@@ -21,7 +24,7 @@ class StateMachineTest1(){
 
         }
     }
-    fun option2(){
+    override fun option2(){
         if(state=="A"){
 
         }
@@ -29,7 +32,7 @@ class StateMachineTest1(){
 
         }
     }
-    fun option3(){
+    override fun option3(){
         if(state=="A"){
 
         }
