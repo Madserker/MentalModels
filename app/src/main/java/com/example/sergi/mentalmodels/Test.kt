@@ -15,5 +15,7 @@ class Test() : AppCompatActivity() {
         fragmentTransaction.add(R.id.container, TestFragment1())
         //fragmentTransaction.add(R.id.container, TestFragment2())
         fragmentTransaction.commit()
+
+
     }
 }

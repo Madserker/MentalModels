@@ -19,7 +19,7 @@ class Constants{
         val test1_B_answer1 = "Consolar a Sam"
         val test1_B_answer2 = "Ajudar a Robert"
         val test1_B_answer3 = "Investigar el cos de Laura"
-        val test1_B_image = ""
+        val test1_B_image = "test1_b_image"
 
     }
 

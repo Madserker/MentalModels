@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         btn_test1.setOnClickListener(object : View.OnClickListener {
             override fun onClick(v: View?) {
                 testNumber = 1
@@ -24,4 +23,5 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
+
 }
