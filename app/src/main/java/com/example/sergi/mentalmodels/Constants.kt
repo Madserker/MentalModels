@@ -64,6 +64,88 @@ class Constants{
         val test1_F_answer3 = "Parlar amb Robert"
         val test1_F_image = "test1_cf_image"
 
+        val test1_G_text = "(Parles amb Dani)\n" +
+                "     Tu: Necessito que em diguis la veritat!\n" +
+                "     Dani: Per què faria això?\n" +
+                "     Tu: Perquè ara sembles el culpable.\n" +
+                "     Dani: No és la meva culpa que Laura m’enxaimpès amb Sam junts.\n" +
+                "     Tu: I per això la vas matar?!\n" +
+                "     Dani: Que no vaig ser jo!\n" +
+                "(Robert i Sam s’afegeixen a la conversació)\n" +
+                "     Robert: Clar que vas ser tú!\n" +
+                "(Robert i Dani començen a barallar-se)\n" +
+                "(Què fas?)\n"
+
+        val test1_G_answer1 = "Preguntar a Sam qui va ser."
+        val test1_G_answer2 = "Deixar que Dani i Robert continuïn barallant."
+        val test1_G_answer3 = ""
+        val test1_G_image = "test1_igh_image"
+
+        val test1_H_text = "(Expliques a la resta el que has trobat al cos)\n" +
+                "     Dani: Et juro que jo no vaig fer res!\n" +
+                "     Robert: Qui et creurà? Sempre has sigut un mentider!\n" +
+                "(Robert i Dani es comencen a barallar)\n"
+
+        val test1_H_answer1 = "Deixes que es barallin."
+        val test1_H_answer2 = "Pares la baralla."
+        val test1_H_answer3 = "Preguntes a Sam el que sap."
+        val test1_H_image = "test1_igh_image"
+
+        val test1_I_text = "(Preguntes a Sam)\n" +
+                "     Sam: Va… va ser en Robert! Però ho va fer per protegir-me!\n" +
+                "(Dani comença a pegar amb més força a Robert) Què fas?\n"
+
+        val test1_I_answer1 = "Pares la baralla."
+        val test1_I_answer2 = "Ho deixes estar."
+        val test1_I_answer3 = ""
+        val test1_I_image = "test1_igh_image"
+
+        val test1_J_text = "(Pares la baralla)\n" +
+                "     Sam: Va ser en Robert, però Laura em mataria després de descobrir que vaig estar amb\n" +
+                "     en Dani!... No mereix anar a la presó.\n"
+
+        val test1_J_answer1 = "Tot i així hauríem d’explicar a la policia tot el que ha passat aquí."
+        val test1_J_answer2 = "I si mentim per a que en Robert no marxi a la presó?"
+        val test1_J_answer3 = ""
+        val test1_J_image = "test1_j_image"
+
+        val test1_K_text = "La baralla continua fins que en Dani mata en Robert. Sam s’encarrega d’explicar a la policia que en Robert va matar a la Laura per protegir-la, ja que la Laura s'havia tornat boja al descubrir que en Dani i la Sam es trobaven junts."
+
+        val test1_K_answer1 = ""
+        val test1_K_answer2 = ""
+        val test1_K_answer3 = ""
+        val test1_K_image = "test1_k_image"
+
+        val test1_L_text = "Tots decideixen de que explicar a la policia el que ha passat és la millor manera, però de sobte en Robert s’apunta amb la pistola. Què fas?"
+
+        val test1_L_answer1 = "No fas res."
+        val test1_L_answer2 = "Persuadeixes a Robert per a que deixi la pistola."
+        val test1_L_answer3 = ""
+        val test1_L_image = "test1_l_image"
+
+        val test1_M_text = "Tots decideixen explicar a la policia uns fets que permeten a Robert liberar-se del càstig."
+
+        val test1_M_answer1 = ""
+        val test1_M_answer2 = ""
+        val test1_M_answer3 = ""
+        val test1_M_image = "test1_mo_image"
+
+        val test1_N_text = "Robert acaba suicidant-se abans que arribi la policía."
+
+        val test1_N_answer1 = ""
+        val test1_N_answer2 = ""
+        val test1_N_answer3 = ""
+        val test1_N_image = "test1_n_image"
+
+        val test1_O_text = "Aconsegueixes que en Robert deixi la pistola i li expliques a la policia els fets que van ocurrir."
+
+        val test1_O_answer1 = ""
+        val test1_O_answer2 = ""
+        val test1_O_answer3 = ""
+        val test1_O_image = "test1_mo_image"
+
+
+
     }
 
 }

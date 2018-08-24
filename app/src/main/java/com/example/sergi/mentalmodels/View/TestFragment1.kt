@@ -1,15 +1,13 @@
-package com.example.sergi.mentalmodels
+package com.example.sergi.mentalmodels.View
 
-import android.content.Context
-import android.net.Uri
 import android.os.Bundle
 import android.app.Fragment
-import android.content.Intent
-import android.text.Layout
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import kotlinx.android.synthetic.main.activity_main.*
+import com.example.sergi.mentalmodels.R
+import com.example.sergi.mentalmodels.StateMachineTest
+import com.example.sergi.mentalmodels.StateMachineTest1
 import kotlinx.android.synthetic.main.fragment_test_fragment1.*
 
 
@@ -26,7 +24,7 @@ class TestFragment1 (): Fragment() {
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        if (MainActivity.testNumber==1){
+        if (MainActivity.testNumber ==1){
             stateMachine = StateMachineTest1()
         }
         stateMachineTest(stateMachine)

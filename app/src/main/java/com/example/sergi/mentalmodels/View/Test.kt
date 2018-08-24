@@ -1,8 +1,9 @@
-package com.example.sergi.mentalmodels
+package com.example.sergi.mentalmodels.View
 
 import android.app.FragmentTransaction
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.sergi.mentalmodels.R
 
 class Test() : AppCompatActivity() {
 

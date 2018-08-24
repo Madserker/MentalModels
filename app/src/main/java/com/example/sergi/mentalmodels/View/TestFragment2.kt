@@ -1,4 +1,4 @@
-package com.example.sergi.mentalmodels
+package com.example.sergi.mentalmodels.View
 
 import android.content.Context
 import android.net.Uri
@@ -7,6 +7,7 @@ import android.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.sergi.mentalmodels.R
 
 
 // TODO: Rename parameter arguments, choose names that match

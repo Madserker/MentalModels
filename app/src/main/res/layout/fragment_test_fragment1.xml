@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TestFragment1">
+    tools:context=".View.TestFragment1">
 
 
     <Button
@@ -69,7 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="124dp"
         android:text="TextView"
-        android:textColor="@android:color/holo_red_light"
+        android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button1" />
 
@@ -79,7 +79,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="72dp"
         android:text="TextView"
-        android:textColor="@android:color/holo_red_light"
+        android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button2" />
 
@@ -89,7 +89,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="28dp"
         android:text="TextView"
-        android:textColor="@android:color/holo_red_light"
+        android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button3" />
 

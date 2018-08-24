@@ -1,10 +1,10 @@
-package com.example.sergi.mentalmodels
+package com.example.sergi.mentalmodels.View
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.AlarmClock.EXTRA_MESSAGE
 import android.view.View
+import com.example.sergi.mentalmodels.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
