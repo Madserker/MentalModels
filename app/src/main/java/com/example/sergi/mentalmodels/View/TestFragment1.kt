@@ -5,16 +5,14 @@ import android.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.sergi.mentalmodels.R
-import com.example.sergi.mentalmodels.StateMachineTest
-import com.example.sergi.mentalmodels.StateMachineTest1
+import com.example.sergi.mentalmodels.*
 import kotlinx.android.synthetic.main.fragment_test_fragment1.*
 
 
 
 class TestFragment1 (): Fragment() {
 
-    var stateMachine = StateMachineTest1()
+    lateinit var stateMachine : StateMachineTest;
 
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View {
@@ -24,8 +22,14 @@ class TestFragment1 (): Fragment() {
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        if (MainActivity.testNumber ==1){
+        if (MainActivity.testNumber == 1){
             stateMachine = StateMachineTest1()
+        }
+        else if (MainActivity.testNumber == 2){
+            stateMachine = StateMachineTest2()
+        }
+        else if (MainActivity.testNumber == 3){
+            stateMachine = StateMachineTest3()
         }
         stateMachineTest(stateMachine)
 

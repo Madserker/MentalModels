@@ -14,9 +14,25 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        btn_test1.setOnClickListener(object : View.OnClickListener {
+        btn_test3.setOnClickListener(object : View.OnClickListener {
             override fun onClick(v: View?) {
                 testNumber = 1
+                val intent = Intent(this@MainActivity.applicationContext, Test::class.java)
+                startActivity(intent)
+
+            }
+        })
+        btn_test2.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(v: View?) {
+                testNumber = 2
+                val intent = Intent(this@MainActivity.applicationContext, Test::class.java)
+                startActivity(intent)
+
+            }
+        })
+        btn_test3.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(v: View?) {
+                testNumber = 3
                 val intent = Intent(this@MainActivity.applicationContext, Test::class.java)
                 startActivity(intent)
 
