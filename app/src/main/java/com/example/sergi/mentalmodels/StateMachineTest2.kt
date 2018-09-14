@@ -80,6 +80,9 @@ class StateMachineTest2() : StateMachineTest{
         else if(state=="O"){
             changeToQ()
         }
+        else if(state=="Q"){
+            changeToJ()
+        }
     }
     override fun option3(){
         if(state=="B"){
@@ -87,6 +90,9 @@ class StateMachineTest2() : StateMachineTest{
         }
         else if(state=="F"){
             changeToG()
+        }
+        else if(state=="G"){
+            changeToJ()
         }
     }
 
