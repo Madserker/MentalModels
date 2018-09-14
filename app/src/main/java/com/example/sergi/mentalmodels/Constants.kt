@@ -146,6 +146,139 @@ class Constants{
 
 
 
+
+        //================================================================================================================================================================================
+
+
+
+
+        val test2_B_text = "En la comunitat on vius la gent es troba dividida per clans, però solament t’hi pots unir una vegada que hagis matat a una bèstia. Et trobes en una armeria on hi ha un tauler. \n" +
+                "\n" +
+                "B: Al tauler de clans veus quina bèstia pertany a cada clan. \n" +
+                "- Els Duneais, has de matar a 3 bèsties grogues (petites pero treballen en grup).\n" +
+                "- Els Ronders, has de matar a la bèstia vermella (és bastant gran)\n" +
+                "- Els Kad-gar, has de matar a la bèstia Alfa (la més poderosa)\n" +
+                "Que clan escogeixes?\n"
+
+        val test2_B_answer1 = "Duneais"
+        val test2_B_answer2 = "Ronders"
+        val test2_B_answer3 = "Kad-gar"
+        val test2_B_image = "test2_b_image"
+
+        val test2_C_text = "De camí cap al riu et trobes en Liam, amic teu que ha decidit caçar a les bèsties grogues. Que fas?"
+
+        val test2_C_answer1 = "Li dius d’anar junts a la caça"
+        val test2_C_answer2 = "Prefereixes anar tu sol/a"
+        val test2_C_answer3 = ""
+        val test2_C_image = "test2_cd_image"
+
+        val test2_D_text = "Pel camí et trobes amb en Liam, amic teu que ha decidit fer-se del clan dels Duneais. Què fas?"
+
+        val test2_D_answer1 = "Unir-te als Duneais"
+        val test2_D_answer2 = "Continuar amb el clan escollit"
+        val test2_D_answer3 = ""
+        val test2_D_image = "test2_cd_image"
+
+        val test2_E_text = "Junt amb en Liam, trobeu el riu on viuen les bèsties grogues. Ja heu acabt amb 5 d’elles, però no trobeu l’última. Que fas?"
+
+        val test2_E_answer1 = "Et marxes amb les tres i deixes a en Liam sol."
+        val test2_E_answer2 = "Continues buscant l’última bèstia."
+        val test2_E_answer3 = ""
+        val test2_E_image = "test2_efo_image"
+
+        val test2_F_text = "Trobes el riu on viuen les bèsties grogues. Comença a matar-les però és molt difícil ja que són moltes. Què fas?"
+
+        val test2_F_answer1 = "Continues barallant contre totes"
+        val test2_F_answer2 = "T’en marches a lluitar amb una bèstia groga que es troba apartada del grup"
+        val test2_F_answer3 = "T’en marxes per unir-te a altre clan"
+        val test2_F_image = "test2_efo_image"
+
+        val test2_G_text = "Pel camí et trobes a un grup de gent que marchen contra els Kad-gar. Que fas?"
+
+        val test2_G_answer1 = "Els acompañes"
+        val test2_G_answer2 = "T’en vas a buscar la bèstia vermella"
+        val test2_G_answer3 = "Busques el Alfa tot sol"
+        val test2_G_image = "test2_g_image"
+
+        val test2_H_text = "Arribes amb les tres bèsties i t’uneixes al clan dels Duneais."
+
+        val test2_H_answer1 = ""
+        val test2_H_answer2 = ""
+        val test2_H_answer3 = ""
+        val test2_H_image = "test2_h_image"
+
+        val test2_I_text = "Trobes l’última bèstia pero en mans d’una persona. Aquesta pretén marxar-se amb la bèstia sense fer-li mal. Què fas?"
+
+        val test2_I_answer1 = "Agafar-li la bèstia i matar-la"
+        val test2_I_answer2 = "Preguntar que està fent"
+        val test2_I_answer3 = ""
+        val test2_I_image = "test2_im_image"
+
+        val test2_J_text = "No pots lluitar amb el teu nivel i acabes morint."
+
+        val test2_J_answer1 = ""
+        val test2_J_answer2 = ""
+        val test2_J_answer3 = ""
+        val test2_J_image = "test2_j_image"
+
+        val test2_K_text = "Tots junts acabeu amb en Alfa i acabes unin-te als Kad-gar."
+
+        val test2_K_answer1 = ""
+        val test2_K_answer2 = ""
+        val test2_K_answer3 = ""
+        val test2_K_image = "test2_k_image"
+
+
+        val test2_L_text = "Trobes a la bèstia vermella, però n’hi ha una person a que pretén protegir-la. Què fas?"
+
+        val test2_L_answer1 = "Lluites contra la persona i la bèstia"
+        val test2_L_answer2 = "Preguntes que està fent"
+        val test2_L_answer3 = ""
+        val test2_L_image = "test2_lq_image"
+
+        val test2_M_text = "La persona t’explica que pertany a un clan anomenat els Losten, que s’encarreguen de cuidar i protegir les bèsties, et demana d'acompanyar-li per mostrar-t'ho. Què fas?"
+
+        val test2_M_answer1 = "Li acompanyes"
+        val test2_M_answer2 = "T’en marxes per buscar altre bèstia que matar."
+        val test2_M_answer3 = ""
+        val test2_M_image = "test2_im_image"
+
+        val test2_N_text = "Li acompanyes i et mostra un clan ple de gent vivint i interactuant amb les bèsties, com una gran família. Què decideixes?"
+
+        val test2_N_answer1 = "Et quedes en aquest clan"
+        val test2_N_answer2 = "T’en marxes per buscar altre bèstia que matar"
+        val test2_N_answer3 = ""
+        val test2_N_image = "test2_n_image"
+
+        val test2_O_text = "Continues buscant alguna bèstia fins que trobes a tres bèsties grogues. Què fas?"
+
+        val test2_O_answer1 = "Mates a les tres"
+        val test2_O_answer2 = "Busques la bèstia vermella"
+        val test2_O_answer3 = ""
+        val test2_O_image = "test2_efo_image"
+
+        val test2_P_text = "T’uneixes al clan dels Losten."
+
+        val test2_P_answer1 = ""
+        val test2_P_answer2 = ""
+        val test2_P_answer3 = ""
+        val test2_P_image = "test2_p_image"
+
+        val test2_Q_text = "Acabes trobant la bèstia vermella, però és molt forta per a tú. Què fas?"
+
+        val test2_Q_answer1 = "Tornes enrere a matar les bèsties grogues"
+        val test2_Q_answer2 = "Continues barallant"
+        val test2_Q_answer3 = ""
+        val test2_Q_image = "test2_lq_image"
+
+
+
+
+        //================================================================================================================================================================================
+
+
+
+
     }
 
 }
