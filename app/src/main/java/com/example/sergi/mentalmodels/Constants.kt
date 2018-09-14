@@ -154,7 +154,7 @@ class Constants{
 
         val test2_B_text = "En la comunitat on vius la gent es troba dividida per clans, però solament t’hi pots unir una vegada que hagis matat a una bèstia. Et trobes en una armeria on hi ha un tauler. \n" +
                 "\n" +
-                "B: Al tauler de clans veus quina bèstia pertany a cada clan. \n" +
+                "Al tauler de clans veus quina bèstia pertany a cada clan. \n" +
                 "- Els Duneais, has de matar a 3 bèsties grogues (petites pero treballen en grup).\n" +
                 "- Els Ronders, has de matar a la bèstia vermella (és bastant gran)\n" +
                 "- Els Kad-gar, has de matar a la bèstia Alfa (la més poderosa)\n" +
