@@ -279,9 +279,112 @@ class Constants{
 
 
 
+        val test3_A_text = "Vas a participar en una sèrie de proves en contra de 100 persones de la teva mateixa edat per aconseguir el millor joc de treball que podries somiar. \n" +
+                "\n" +
+                "La primera prova consisteix en fer 4 cubs per mitjà de peces però et quedes sense temps per fer una. Què fas?\n"
 
+        val test3_A_answer1 = "Li robes un cub al company del teu costat"
+        val test3_A_answer2 = "No fas res"
+        val test3_A_answer3 = ""
+        val test3_A_image = "test3_a_image"
 
+        val test3_B_text = "El company del teu costat no pasa la prova. Pases a la següent prova amb 5 companys però n’hi ha solament 4 monedes, si obtens una moneda pases de prova però els teus companys no et deixen cap. Què fas?"
 
+        val test3_B_answer1 = "Comences una pelea entre tots"
+        val test3_B_answer2 = "No fas res."
+        val test3_B_answer3 = "Intentes convèncer a la resta de fer-ho a sort"
+        val test3_B_image = "test3_bgh_image"
+
+        val test3_C_text = "El company del teu costat et dóna uns dels cubs que ha fet de més i pases la prova. Després s’acosta al teu costat i et pregunta si t’uneixes amb ell per passar les següents proves. Què fas?"
+
+        val test3_C_answer1 = "Acceptes"
+        val test3_C_answer2 = "Vas pel teu compte"
+        val test3_C_answer3 = ""
+        val test3_C_image = "test3_c_image"
+
+        val test3_D_text = "Aconsegueixes un moneda i pases la prova. A la següent prova els teus companys i tú us tireu en paracaigudes però un de vosaltres no porta cap. Què fas?"
+
+        val test3_D_answer1 = "Busques una solució amb els teus companys"
+        val test3_D_answer2 = "T’arrisques a continuar sol"
+        val test3_D_answer3 = ""
+        val test3_D_image = "test3_dfjk_image"
+
+        val test3_E_text = "Perdeixes la prova i no aconsegueixes el teu somni"
+
+        val test3_E_answer1 = ""
+        val test3_E_answer2 = ""
+        val test3_E_answer3 = ""
+        val test3_E_image = "test3_mne_image"
+
+        val test3_F_text = "Ho feu a sort i guanyes una moneda, pases la prova.  A la següent prova els teus companys i tú us tireu en paracaigudes però un de vosaltres no porta cap. Què fas?"
+
+        val test3_F_answer1 = "Busques una solució amb els teus companys"
+        val test3_F_answer2 = "T’arrisques a continuar sol"
+        val test3_F_answer3 = ""
+        val test3_F_image = "test3_dfjk_image"
+
+        val test3_G_text = "Pases a la següent prova amb 5 companys però n’hi ha solament 4 monedes, si obtens una moneda pases de prova. El teu “amic” et guarda una moneda per a tú. Què fas?"
+
+        val test3_G_answer1 = "Et quedes amb la moneda"
+        val test3_G_answer2 = "Decideixes que es faci a sort"
+        val test3_G_answer3 = ""
+        val test3_G_image = "test3_bgh_image"
+
+        val test3_H_text = "Pases a la següent prova amb 5 companys però n’hi ha solament 4 monedes, si obtens una moneda pases de prova. Què fas?"
+
+        val test3_H_answer1 = "Comences una lluita per guanyar la moneda"
+        val test3_H_answer2 = "Ho feu a sort"
+        val test3_H_answer3 = ""
+        val test3_H_image = "test3_bgh_image"
+
+        val test3_I_text = "Has passat a la següent prova, et mostren molt diners i et diuen que aquest diners poden anar per a tú i la teva família si abandones."
+
+        val test3_I_answer1 = "Et quedes amb el diners"
+        val test3_I_answer2 = "Abandones"
+        val test3_I_answer3 = ""
+        val test3_I_image = "test3_i_image"
+
+        val test3_J_text = "Aconsegueixes pasar la prova. A la següent prova els teus companys i tú us tireu en paracaigudes però un de vosaltres no porta cap, el teu amic et diu que ha conseguit un paracaigudes per a tu que segur que funciona. Què fas?"
+
+        val test3_J_answer1 = "Et poses el paracaigudes que et dóna"
+        val test3_J_answer2 = "Continues amb el teu paracaigudes"
+        val test3_J_answer3 = ""
+        val test3_J_image = "test3_dfjk_image"
+
+        val test3_K_text = "Aconsegueixes un moneda i pases la prova. A la següent prova els teus companys i tú us tireu en paracaigudes però un de vosaltres no porta cap. Què fas?"
+
+        val test3_K_answer1 = "Busques una solució amb els teus companys"
+        val test3_K_answer2 = "T’arrisques a continuar sol"
+        val test3_K_answer3 = ""
+        val test3_K_image = "test3_dfjk_image"
+
+        val test3_L_text = "Pases a l’última prova, on et fan matar a un cadell de gos. Què fas?"
+
+        val test3_L_answer1 = "Mates al gos"
+        val test3_L_answer2 = "Abandones"
+        val test3_L_answer3 = ""
+        val test3_L_image = "test3_l_image"
+
+        val test3_M_text = "Abandones les proves i l’oportunitat d’aconseguir el teu somni."
+
+        val test3_M_answer1 = ""
+        val test3_M_answer2 = ""
+        val test3_M_answer3 = ""
+        val test3_M_image = "test3_mne_image"
+
+        val test3_N_text = "El teu amic t’ha donat un paracaigudes fals, perdeixes la prova i no aconsegueixes el teu somni."
+
+        val test3_N_answer1 = ""
+        val test3_N_answer2 = ""
+        val test3_N_answer3 = ""
+        val test3_N_image = "test3_mne_image"
+
+        val test3_O_text = "Aconsegueixes el teu somni."
+
+        val test3_O_answer1 = ""
+        val test3_O_answer2 = ""
+        val test3_O_answer3 = ""
+        val test3_O_image = "test3_o_image"
 
 
 
