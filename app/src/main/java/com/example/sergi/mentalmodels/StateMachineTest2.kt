@@ -44,7 +44,9 @@ class StateMachineTest2() : StateMachineTest{
         else if(state=="O"){
             changeToH()
         }
-
+        else if(state=="Q"){
+            changeToH()
+        }
     }
     override fun option2(){
         if(state=="B"){
