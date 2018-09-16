@@ -21,7 +21,28 @@ class StateMachineTest3() : StateMachineTest{
             changeToG()
         }
         else if(state=="D"){
-            changeToG()
+            changeToI()
+        }
+        else if(state=="F"){
+            changeToI()
+        }
+        else if(state=="G"){
+            changeToJ()
+        }
+        else if(state=="H"){
+            changeToK()
+        }
+        else if(state=="I"){
+            changeToL()
+        }
+        else if(state=="J"){
+            changeToN()
+        }
+        else if(state=="K"){
+            changeToI()
+        }
+        else if(state=="L"){
+            changeToO()
         }
     }
     override fun option2(){
@@ -33,6 +54,30 @@ class StateMachineTest3() : StateMachineTest{
         }
         else if(state=="C"){
             changeToH()
+        }
+        else if(state=="D"){
+            changeToE()
+        }
+        else if(state=="F"){
+            changeToE()
+        }
+        else if(state=="G"){
+            changeToK()
+        }
+        else if(state=="H"){
+            changeToK()
+        }
+        else if(state=="I"){
+            changeToM()
+        }
+        else if(state=="J"){
+            changeToI()
+        }
+        else if(state=="K"){
+            changeToE()
+        }
+        else if(state=="L"){
+            changeToM()
         }
     }
     override fun option3(){
